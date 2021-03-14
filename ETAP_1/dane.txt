@@ -1,0 +1,32 @@
+1) CZŁONKOWIE ZESPOŁU:
+Sitek Kamil, kamil.sitek98@interia.pl, grupa 1ID22A
+Zawadzki Michał, michal.zawadzki66669@gmail.com, grupa 1ID22A
+
+2)TEMAT PROJEKTU
+Projekt numer 43: Konwersja pomiędzy formatami
+
+3)SPIS TECHNOLOGII
+Angular 10 Frontend
+Python 3 do zaimplementownaia algorytmu
+Django/Flask mikro freamwork aplikacji webowych 
+
+
+4)HARMONOGRAM PRAC
+MARZEC: Wykonanie interfejsu użytkownika(frontend)
+KWIECIEŃ: Integracja frontend'u z serwerem Pythonowym. Wstępnie konwertowanie formatów z użyciem gotowych bibliotek konwertujących 
+MAJ: Zaimplementowanie własnego algorytmu konwersji miedzy formatem CSV a JSON i JSON a CSV.
+CZERWIEC: Naniesienie ostatnich poprawek na projekt. Wykonanie ewentualnych sugestii nałożonych przez prowadzącego. Obrona projektu.
+
+Funkcjonalności:
+Pobranie pliku od użytkownika
+Wybranie odpowiedniej konwersji
+Możliwość pobrania skonwertowanego pliku
+
+5)PODZIAŁ PRAC W ZESPOLE
+Prace w głównej mierzy będą polegały na wspólnym działaniu ze względu na częsty kontakt obu członków zespołu, z większym naciskiem Michała Zawadzkiego na backend, a Kamila Sitka na frontend.
+
+6)TEMATY INNYCH PROJEKTÓW
+Kamil Sitek, Programowanie systemów rozproszonych: Łamacz Haseł 
+Michał Zawadzki, Programowanie systemów rozproszonych: Łamacz Haseł 
+Kamil Sitek, Praca inżynierska: Portal ogłoszeniowy wspomagający transakcje barterowe
+Michał Zawadzki, Praca inżynierska: Projekt i konstrukcja czterokołowego pojazdu z kamerą cyfrową sterowanego radiowo za pomocą własnego pilota
