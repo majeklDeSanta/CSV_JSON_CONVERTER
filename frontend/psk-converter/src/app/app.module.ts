@@ -19,6 +19,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { AppComponent } from './app.component';
 import { NgxMatFileInputModule } from '@angular-material-components/file-input';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { UploadFileService } from './services/upload-file.service';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 @NgModule({
   declarations: [AppComponent, ConverterMenuComponent],
   imports: [
@@ -37,6 +39,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatIconModule,
     MatCardModule,
     NgxMatFileInputModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

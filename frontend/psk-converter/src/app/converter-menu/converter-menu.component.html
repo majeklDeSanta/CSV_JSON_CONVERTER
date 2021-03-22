@@ -4,14 +4,14 @@
       <mat-form-field class="select-model" appearance="fill">
         <mat-label>Formatuj z</mat-label>
         <mat-select>
-          <mat-option *ngFor="let food of foods" [value]="food.value">
+          <!-- <mat-option *ngFor="let food of foods" [value]="food.value">
             {{ food.viewValue }}
-          </mat-option>
+          </mat-option> -->
         </mat-select>
       </mat-form-field>
     </div>
     <div class="col-sm select-model">
-      <mat-form-field>
+      <!-- <mat-form-field>
         <ngx-mat-file-input
           [formControl]="fileControl"
           [multiple]="multiple"
@@ -19,15 +19,24 @@
           [color]="color"
         >
         </ngx-mat-file-input>
-      </mat-form-field>
+      </mat-form-field> -->
+      <div class="form-group">
+        <label for="file">Choose File</label>
+        <input type="file"
+               id="file"
+               (change)="handleFileInput($event.target.files)">
+    </div>
+    >
+>
+       <button mat-raised-button class="standard-button" (click)="uploadFile()">Upload file</button>
     </div>
     <div class="col-sm">
       <mat-form-field class="select-model" appearance="fill">
         <mat-label>Formatuj do</mat-label>
         <mat-select>
-          <mat-option *ngFor="let food of foods" [value]="food.value">
+          <!-- <mat-option *ngFor="let food of foods" [value]="food.value">
             {{ food.viewValue }}
-          </mat-option>
+          </mat-option> -->
         </mat-select>
       </mat-form-field>
     </div>
